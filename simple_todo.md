@@ -1,12 +1,11 @@
-/*
-  Simple TODO App;
-  Can create TODOs with a specific date.  List date shows RED if late, GREEN if not late.
-  Checkmark to mark as done,
-  NO SAVING FUNCTIONALITY.
+# Simple TODO App;
+Can create TODOs with a specific date.  List date shows RED if late, GREEN if not late.
+Checkmark to mark as done,
+NO SAVING FUNCTIONALITY.
 
-  example image: https://gyazo.com/650ae262340a082621349317fe2bfcb0
-*/
+![example image](https://gyazo.com/650ae262340a082621349317fe2bfcb0 "Example Image")
 
+```dart
 // ignore_for_file: must_be_immutable, prefer_const_constructors, avoid_print
 
 import 'package:flutter/material.dart';
@@ -150,3 +149,4 @@ class _MyApp extends State<MyApp> {
     );
   }
 }
+```
